@@ -1,0 +1,13 @@
+:root {
+    color: black;
+    background-color: #CCCCCC;
+}
+
+header, main {
+    background-color: #FFFFFF;
+    border-color: #3994BC;
+}
+
+a {
+    color: #3994BC;
+}

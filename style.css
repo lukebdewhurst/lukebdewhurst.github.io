@@ -27,6 +27,17 @@ main + h1, h2 {
     border-style: dashed;
 }
 
+button {
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    margin: 0 0 1em 0;
+}
+
+button:hover {
+    border-color: #CCCCCC;
+}
+
 a {
     color: #D2A21B;
 }
