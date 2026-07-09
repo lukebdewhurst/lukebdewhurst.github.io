@@ -1,0 +1,65 @@
+:root {
+    max-width: 40em;
+    margin: auto;
+    font-family: monospace;
+    color: #CCCCCC;
+    background-color: #191A1B;
+}
+
+header, footer {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+header, main {
+    padding: 0 1em;
+    border: 1px solid #733C09;
+    border-radius: 8px;
+    background-color: #121314;
+}
+
+body {
+    margin: 1em;
+}
+
+main + h1, h2 {
+    border-width: 0 0 1px 0;
+    border-style: dashed;
+}
+
+a {
+    color: #D2A21B;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    color: #46d21b;
+}
+
+ul {
+    padding-inline-start: 2em;
+}
+
+li::marker {
+    content: "* ";
+}
+
+dt, dd {
+    display: inline;
+    font-style: normal;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dt::after {
+    content: ":"
+}
+
+dd {
+    margin-inline-start: 0;
+}
